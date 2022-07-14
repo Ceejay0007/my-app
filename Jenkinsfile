@@ -3,7 +3,7 @@ pipline{
     stages{
       stage("SCM checkout"){
         step{
-          git "https://github.com/Ceejay0007/my-app"
+          git "https://github.com/Ceejay0007/my-app/blob/master/Jenkinsfile"
         }
      }
       stage("maven build"){
